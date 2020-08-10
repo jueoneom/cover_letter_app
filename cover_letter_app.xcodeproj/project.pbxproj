@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		895933C924E1709200CF58E2 /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895933C824E1709200CF58E2 /* CustomUIView.swift */; };
 		895F12CC24DE940300FFEC18 /* TagViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895F12CA24DE940300FFEC18 /* TagViewCell.swift */; };
 		895F12CD24DE940300FFEC18 /* TagViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 895F12CB24DE940300FFEC18 /* TagViewCell.xib */; };
 		89B41AF924DED8670071F8A1 /* MaterialQView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89B41AF824DED8670071F8A1 /* MaterialQView.xib */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		895933C824E1709200CF58E2 /* CustomUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
 		895F12CA24DE940300FFEC18 /* TagViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagViewCell.swift; sourceTree = "<group>"; };
 		895F12CB24DE940300FFEC18 /* TagViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagViewCell.xib; sourceTree = "<group>"; };
 		89B41AF824DED8670071F8A1 /* MaterialQView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MaterialQView.xib; sourceTree = "<group>"; };
@@ -63,6 +65,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		895933CA24E1709B00CF58E2 /* CutomExtension */ = {
+			isa = PBXGroup;
+			children = (
+				895933C824E1709200CF58E2 /* CustomUIView.swift */,
+			);
+			path = CutomExtension;
+			sourceTree = "<group>";
+		};
 		895F12C724DE937A00FFEC18 /* ViewScripts */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +105,7 @@
 		89F5414824DD9EB800848797 /* cover_letter_app */ = {
 			isa = PBXGroup;
 			children = (
+				895933CA24E1709B00CF58E2 /* CutomExtension */,
 				895F12C724DE937A00FFEC18 /* ViewScripts */,
 				89F5416D24DDCB2800848797 /* Views */,
 				89F5416724DDC1D400848797 /* Storyboards */,
@@ -223,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89F5414E24DD9EB800848797 /* QuestionListVC.swift in Sources */,
+				895933C924E1709200CF58E2 /* CustomUIView.swift in Sources */,
 				89F5414A24DD9EB800848797 /* AppDelegate.swift in Sources */,
 				89B41B0124DEE09E0071F8A1 /* AnswerView.swift in Sources */,
 				895F12CC24DE940300FFEC18 /* TagViewCell.swift in Sources */,

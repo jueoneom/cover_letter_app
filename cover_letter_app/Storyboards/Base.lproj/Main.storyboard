@@ -64,6 +64,11 @@
                                                         <constraint firstItem="9ZA-Qi-lRW" firstAttribute="leading" secondItem="n0x-qQ-tVN" secondAttribute="trailing" constant="10" id="f0V-vs-myU"/>
                                                         <constraint firstAttribute="bottom" secondItem="NlB-2s-eIA" secondAttribute="bottom" id="i7A-96-eqL"/>
                                                     </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="20"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
                                                 </view>
                                                 <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="b3f-4z-xM8">
                                                     <rect key="frame" x="0.0" y="10" width="100" height="105"/>
@@ -180,7 +185,7 @@
                                                             <attributedString key="attributedText">
                                                                 <fragment content="소재">
                                                                     <attributes>
-                                                                        <font key="NSFont" size="17" name=".AppleSDGothicNeoI-Regular"/>
+                                                                        <font key="NSFont" metaFont="system" size="17"/>
                                                                         <font key="NSOriginalFont" metaFont="system" size="17"/>
                                                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                     </attributes>
@@ -193,7 +198,7 @@
                                                                 </fragment>
                                                                 <fragment content="키워드">
                                                                     <attributes>
-                                                                        <font key="NSFont" size="17" name=".AppleSDGothicNeoI-Regular"/>
+                                                                        <font key="NSFont" metaFont="system" size="17"/>
                                                                         <font key="NSOriginalFont" metaFont="system" size="17"/>
                                                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                     </attributes>
@@ -206,7 +211,7 @@
                                                                 </fragment>
                                                                 <fragment content="제목">
                                                                     <attributes>
-                                                                        <font key="NSFont" size="17" name=".AppleSDGothicNeoI-Regular"/>
+                                                                        <font key="NSFont" metaFont="system" size="17"/>
                                                                         <font key="NSOriginalFont" metaFont="system" size="17"/>
                                                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                     </attributes>
@@ -240,6 +245,11 @@
                                                         <constraint firstItem="YQn-Vt-8zc" firstAttribute="top" secondItem="iWP-zm-DX3" secondAttribute="top" constant="14" id="l6i-hp-C3B"/>
                                                         <constraint firstAttribute="trailing" secondItem="YQn-Vt-8zc" secondAttribute="trailing" constant="14" id="u14-SN-rh4"/>
                                                     </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="20"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
                                                 </view>
                                                 <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="dHi-Yv-R6i">
                                                     <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
@@ -264,6 +274,7 @@
                                                     </constraints>
                                                 </stackView>
                                             </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstItem="dHi-Yv-R6i" firstAttribute="top" secondItem="2Qc-Op-V6n" secondAttribute="top" id="1ob-pq-LO4"/>
                                                 <constraint firstAttribute="bottom" secondItem="dHi-Yv-R6i" secondAttribute="bottom" id="I1M-Hi-EgM"/>
@@ -275,6 +286,7 @@
                                                 <constraint firstItem="iWP-zm-DX3" firstAttribute="leading" secondItem="dHi-Yv-R6i" secondAttribute="leading" id="skN-UP-mgR"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <outlet property="charNumLabel" destination="SEi-Wg-ijX" id="m77-JY-IRM"/>
                                             <outlet property="fieldNameLabel" destination="R8I-ji-97f" id="UuN-kn-ESF"/>
@@ -352,6 +364,11 @@
                                         </rightBarButtonItems>
                                     </navigationItem>
                                 </items>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </navigationBar>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TBr-sb-lGb">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
@@ -975,6 +992,11 @@
                                     <constraint firstItem="dPf-MZ-Wek" firstAttribute="leading" secondItem="yoL-ke-A48" secondAttribute="leading" id="xLL-fy-qVB"/>
                                     <constraint firstItem="dPf-MZ-Wek" firstAttribute="top" secondItem="oCz-WY-86s" secondAttribute="bottom" constant="20" id="yVq-Rs-90P"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666669999997" alpha="0.3927386558" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1051,6 +1073,11 @@
                                         <state key="normal" title="시작하기">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <segue destination="O97-hb-zvh" kind="showDetail" id="Ncl-gk-s7I"/>
                                         </connections>
@@ -1143,6 +1170,11 @@
                                     <constraint firstItem="pXN-39-Mvk" firstAttribute="bottom" secondItem="nVu-hr-SeK" secondAttribute="bottom" constant="-20" id="kxM-XI-0c2"/>
                                     <constraint firstItem="pXN-39-Mvk" firstAttribute="top" secondItem="nVu-hr-SeK" secondAttribute="top" constant="20" id="pqD-1Y-hlZ"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666669999997" alpha="0.3927386558" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1211,6 +1243,9 @@
                                     <constraint firstAttribute="height" constant="60" id="dfq-8j-aYI"/>
                                 </constraints>
                                 <state key="normal" image="Yes"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="cornerCircle" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
